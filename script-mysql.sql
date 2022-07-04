@@ -107,40 +107,39 @@ insert into reviewers(id, name) values (4,'Marcos Rivera');
 insert into reviewers(id, name) values (5,'Amanda Ruiz');
 insert into reviewers(id, name) values (6,'Enrique Contreras');
 
-insert into directors(id,name) values (1, 'Christopher Nolan')
-insert into directors(id,name) values (2, 'Sofia Coppola')
-insert into directors(id,name) values (3, 'Martin Scorsese')
+insert into directors(id,name) values (1, 'Christopher Nolan');
+insert into directors(id,name) values (2, 'Sofia Coppola');
+insert into directors(id,name) values (3, 'Martin Scorsese');
 
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(1,2020,'Inception', 'English',120, 1,4)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(2,1998,'Following', 'English',120, 1,4)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(3,2000,'Memento', 'English',120, 1,4)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(4,2003,'Lost in Translation', 'English',120, 2,1)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(5,2003,'Somewhere', 'English',120, 2,1)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(6,1999,'The Virgin Suicides', 'English',120, 2,1)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(7,2003,'Casino', 'English',120, 3,1)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(8,1980,'Raging Bull', 'English',120, 3,1)
-insert into movies( id,year,title, language, duration, director_id, genre_id) values(9,2016,'Silence', 'English',120, 3,1)
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(1,2020,'Inception', 'English',120, 1,4);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(2,1998,'Following', 'English',120, 1,4);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(3,2000,'Memento', 'English',120, 1,4);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(4,2003,'Lost in Translation', 'English',120, 2,1);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(5,2003,'Somewhere', 'English',120, 2,1);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(6,1999,'The Virgin Suicides', 'English',120, 2,1);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(7,2003,'Casino', 'English',120, 3,1);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(8,1980,'Raging Bull', 'English',120, 3,1);
+insert into movies( id,year,title, language, duration, director_id, genre_id) values(9,2016,'Silence', 'English',120, 3,1);
 
 
-insert into ratings(reviewer_id, movie_id, stars, comment) values (1,1,3, 'Buena película')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (1,2,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (2,1,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (2,2,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (3,1,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (3,3,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (3,4,5, 'Excelente')
+insert into ratings(reviewer_id, movie_id, stars, comment) values (1,1,3, 'Buena película');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (1,2,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (2,1,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (2,2,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (3,1,5, 'Excelente');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (3,3,5, 'Excelente');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (3,4,5, 'Excelente');
 
-insert into ratings(reviewer_id, movie_id, stars, comment) values (1,5,3, 'Buena película')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (1,6,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (2,5,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (2,6,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (3,5,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (3,6,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (3,7,5, 'Excelente')
+insert into ratings(reviewer_id, movie_id, stars, comment) values (1,5,3, 'Buena película');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (1,6,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (2,5,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (2,6,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (3,5,5, 'Excelente');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (3,6,5, 'Excelente');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (3,7,5, 'Excelente');
 
-insert into ratings(reviewer_id, movie_id, stars, comment) values (4,5,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (4,6,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (5,6,3, 'Buena película')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (5,5,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (6,6,4, 'Excelentes actuaciones')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (6,7,4, 'Excelentes actuaciones')
+insert into ratings(reviewer_id, movie_id, stars, comment) values (4,5,5, 'Excelente');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (4,6,5, 'Excelente');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (5,6,3, 'Buena película');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (5,5,4, 'Excelentes actuaciones');
+insert into ratings(reviewer_id, movie_id, stars, comment) values (6,6,4, 'Excelentes actuaciones');
