@@ -140,7 +140,6 @@ insert into ratings(reviewer_id, movie_id, stars, comment) values (3,7,5, 'Excel
 
 insert into ratings(reviewer_id, movie_id, stars, comment) values (4,5,5, 'Excelente')
 insert into ratings(reviewer_id, movie_id, stars, comment) values (4,6,5, 'Excelente')
-insert into ratings(reviewer_id, movie_id, stars, comment) values (4,5,2, 'Pésima')
 insert into ratings(reviewer_id, movie_id, stars, comment) values (5,6,3, 'Buena película')
 insert into ratings(reviewer_id, movie_id, stars, comment) values (5,5,4, 'Excelentes actuaciones')
 insert into ratings(reviewer_id, movie_id, stars, comment) values (6,6,4, 'Excelentes actuaciones')
